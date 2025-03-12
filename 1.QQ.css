@@ -1,0 +1,42 @@
+/* Profile Card */
+.card {
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 40px;
+    max-width: 320px;
+    width: 90%;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+/* Profile Picture */
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #4e54c8;
+}
+
+/* Bio Text */
+.bio {
+    margin: 10px 0;
+    color: #555;
+}
+
+/* Social Icons */
+.social-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 24px;
+    transition: transform 0.3s;
+}
+
+.social-icons a:hover {
+    transform: scale(1.3);
+}
