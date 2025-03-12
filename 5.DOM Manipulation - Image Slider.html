@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Slider</title>
+  <style>
+    /* Basic styling for the slider */
+    .slider {
+      width: 500px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .slider img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+    .buttons {
+      margin-top: 20px;
+    }
+    .buttons button {
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="slider">
+    <!-- Image container -->
+    <div class="image-container">
+      <img id="slider-image" src="image1.jpg" alt="Slider Image">
+    </div>
+    <!-- Navigation buttons -->
+    <div class="buttons">
+      <button id="prev-button">Previous</button>
+      <button id="next-button">Next</button>
+    </div>
+  </div>
+
+  <script src="slider.js"></script>
+</body>
+</html>
